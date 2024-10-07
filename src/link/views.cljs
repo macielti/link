@@ -1,12 +1,13 @@
-(ns link.views
-  (:require
-   [re-frame.core :as re-frame]
-   [link.subs :as subs]
-   ))
+(ns link.views)
 
 (defn main-panel []
-  (let [name (re-frame/subscribe [::subs/name])]
-    [:div
-     [:h1
-      "Hello from " @name]
-     ]))
+  [:div.d-flex.justify-content-center.align-items-center.vh-100
+   [:div.d-flex.flex-column.gap-3
+    [:h1 "Bruno do Nascimento Maciel"]
+    [:h4 "Software Engineer"]
+    [:a.btn.btn-secondary.btn-lg {:href   "https://www.linkedin.com/in/bruno-do-nascimento-maciel-7b7a28a9/"
+                                  :target "_blank"} "LinkedIn"]
+    [:a.btn.btn-secondary.btn-lg {:href   "https://github.com/macielti"
+                                  :target "_blank"} "GitHub"]
+    [:a.btn.btn-secondary.btn-lg {:href   "https://brunolab.dev.br"
+                                  :target "_blank"} "brunolab.dev.br (blog)"]]])
