@@ -5,6 +5,8 @@
    [:div.d-flex.flex-column.gap-3
     [:h1 "Bruno do Nascimento Maciel"]
     [:h4 "Software Engineer"]
+    [:a.btn.btn-secondary.btn-lg {:href   "https://www.instagram.com/bruno.nascimento.maciel/"
+                                  :target "_blank"} "Instagram"]
     [:a.btn.btn-secondary.btn-lg {:href   "https://www.linkedin.com/in/bruno-do-nascimento-maciel-7b7a28a9/"
                                   :target "_blank"} "LinkedIn"]
     [:a.btn.btn-secondary.btn-lg {:href   "https://github.com/macielti"
