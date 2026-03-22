@@ -12,4 +12,6 @@
     [:a.btn.btn-secondary.btn-lg {:href   "https://github.com/macielti"
                                   :target "_blank"} "GitHub"]
     [:a.btn.btn-secondary.btn-lg {:href   "https://brunolab.dev.br"
-                                  :target "_blank"} "brunolab.dev.br (blog)"]]])
+                                  :target "_blank"} "brunolab.dev.br (blog)"]
+    [:a.btn.btn-secondary.btn-lg {:href   "https://talks.brunolab.dev.br"
+                                  :target "_blank"} "Talks"]]])
